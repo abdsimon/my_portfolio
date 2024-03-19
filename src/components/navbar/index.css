@@ -3,9 +3,9 @@
  width: 100vw;
  margin: 0 auto;
  padding:  1rem 2rem;
- align-items: center;
- justify-content: space-between;
  position: sticky;
+ display: flex;
+ justify-content: flex-end;
  top: 0;
  z-index: 3;
  font-size: 50px;

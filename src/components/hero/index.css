@@ -1,13 +1,15 @@
-#intro {
+.intro {
     width: 100vw;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
+    height: 100vh;
+    display:flex;
 }
 
+.heroImage{
+    width: 40%;
+    object-fit: cover;
+}
 .introContent {
-    height: 100vh;
-    width: 100vw;
+    flex-basis: 60%;
     padding: 3rem;
     font-size: 7rem;
     font-weight: 200;
@@ -24,5 +26,5 @@
 }
 .introPara{
     font-size: 2rem;
-    font-weight: rem;
+
 }
