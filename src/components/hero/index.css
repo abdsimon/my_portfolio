@@ -28,3 +28,9 @@
     font-size: 2rem;
 
 }
+
+@media screen and (-width: 380px) {
+    .n-list {
+      display: none;
+    }
+  }

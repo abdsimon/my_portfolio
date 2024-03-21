@@ -12,7 +12,7 @@ export default function NavBar() {
         <div className='desktopMenu'>
            <Link className='desktopMenlistItem'>Home</Link>
            <Link className='desktopMenlistItem'>About</Link>
-           <Link className='desktopMenlistItem'>Contact</Link>
+           <Link to='Contact' className='desktopMenlistItem'>Contact </Link>
            </div>
       
     </nav>

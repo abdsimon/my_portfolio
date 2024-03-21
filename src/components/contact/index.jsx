@@ -2,12 +2,12 @@
 import React from "react";
 import './index.css';
 
-
-const Contact=() => {
+const Contact =() => {
     return (
-      <section>
-            Contact
-      </section>
+       <section >
+       About
+      
+       </section>
     )
 }
 
