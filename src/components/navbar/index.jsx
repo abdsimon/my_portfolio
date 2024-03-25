@@ -2,7 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './index.css' 
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
+
 
 
 
@@ -12,7 +13,7 @@ export default function NavBar() {
         <div className='desktopMenu'>
            <Link className='desktopMenlistItem'>Home</Link>
            <Link className='desktopMenlistItem'>About</Link>
-           <Link to='Contact' className='desktopMenlistItem'>Contact </Link>
+           <Link to="7contact" className='desktopMenlistItem'>Contact </Link>
            </div>
       
     </nav>
