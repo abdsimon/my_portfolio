@@ -2,8 +2,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './index.css' 
-import { Link } from 'react-scroll'
 
+function App() {
+  const [todos, setTodos] = useState([]);
+  const [newTodo, setNewTodo] = useState('');
+
+  const [editTodoId, setEditTodoId] = useState()
+
+  const [saveEditTodo, setSaveEditTodo] = useState()
 
 
 
@@ -11,9 +17,9 @@ export default function NavBar() {
   return (
     <nav className='navbar'>
         <div className='desktopMenu'>
-           <Link className='desktopMenlistItem'>Home</Link>
-           <Link className='desktopMenlistItem'>About</Link>
-           <Link to="7contact" className='desktopMenlistItem'>Contact </Link>
+           <a className='desktopMenlistItem'>Home</a>
+           <a className='desktopMenlistItem'>About</a>
+           <a href='#contact' className='desktopMenlistItem'>Contact </a>
            </div>
       
     </nav>
