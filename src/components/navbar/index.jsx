@@ -13,6 +13,7 @@ export default function NavBar() {
            <a className='desktopMenlistItem'>Home</a>
            <a className='desktopMenlistItem'>About</a>
            <a href='#contact' className='desktopMenlistItem'>Contact </a>
+           <h>23</h>
            </div>
       
     </nav>
